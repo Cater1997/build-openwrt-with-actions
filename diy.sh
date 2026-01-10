@@ -21,4 +21,6 @@ echo 'src-git fancontrol https://v6.gh-proxy.org/https://github.com/JiaY-shi/fan
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 #git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
 sed -i "/helloworld/d" "feeds.conf.default"
+echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 sed -i "/fancontrol/d" "feeds.conf.default"
+echo "src-git fancontrol https://github.com/JiaY-shi/fancontrol.git" >> "feeds.conf.default"
