@@ -15,6 +15,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git adguardhome https://github.com/stevenjoezhang/luci-app-adguardhome.git' >>feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 echo 'src-git unblockneteasemusic https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git' >>feeds.conf.default
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
