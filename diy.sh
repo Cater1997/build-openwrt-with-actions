@@ -13,8 +13,9 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # 添加额外的软件包，echo 方式和git clone 方式二选一即可
 #echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
-echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
 echo 'src-git adguardhome https://github.com/stevenjoezhang/luci-app-adguardhome.git' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+echo 'src-git unblockneteasemusic https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git' >>feeds.conf.default
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
