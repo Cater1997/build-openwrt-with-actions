@@ -22,6 +22,4 @@ git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite.git package/adb
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/adguardhome
 git clone https://github.com/alvazhang79/luci-app-advancedsetting.git package/advancedsetting
 git clone https://github.com/DustReliant/luci-app-filetransfer.git package/filetransfer
-git clone https://github.com/xtaci/kcptun.git package/kcptun
 git clone https://github.com/chenmozhijin/turboacc.git package/turboacc
-git clone https://github.com/wangyu-/udp2raw.git package/udp2raw
