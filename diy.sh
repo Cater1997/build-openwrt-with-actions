@@ -17,9 +17,8 @@ echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.d
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
-git clone https://github.com/CrazyPegasus/luci-app-accesscontrol-plus.git package/accesscontrol
-git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite.git package/adbyby
-git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/adguardhome
-git clone https://github.com/alvazhang79/luci-app-advancedsetting.git package/advancedsetting
-git clone https://github.com/DustReliant/luci-app-filetransfer.git package/filetransfer
+git clone https://github.com/CrazyPegasus/luci-app-accesscontrol-plus.git package/luci-app-accesscontrol-plus
+git clone https://github.com/kongfl888/luci-app-adbyby-plus-lite.git package/luci-app-adbyby-plus-lite
+git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/DustReliant/luci-app-filetransfer.git package/luci-app-filetransfer
 git clone https://github.com/chenmozhijin/turboacc.git package/turboacc
