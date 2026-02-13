@@ -5,9 +5,11 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # 编辑默认的主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-sed -i 's/CONFIG_PACKAGE_kmod-fast-classifier=y/# CONFIG_PACKAGE_kmod-fast-classifier=y/' .config
-sed -i 's/CONFIG_PACKAGE_kmod-shortcut-fe-cm=y/# CONFIG_PACKAGE_kmod-shortcut-fe-cm=y/' .config
-sed -i 's/CONFIG_PACKAGE_kmod-shortcut-fe-drv=y/# CONFIG_PACKAGE_kmod-shortcut-fe-drv=y/' .config
+
+# 启用Turbo ACC加速相关内核模块
+echo "CONFIG_PACKAGE_kmod-fast-classifier=y" >> .config
+echo "CONFIG_PACKAGE_kmod-shortcut-fe-cm=y" >> .config
+echo "CONFIG_PACKAGE_kmod-shortcut-fe-drv=y" >> .config
 
 # 编辑默认的luci显示的固件名称
 #sed -i 's/OpenWrt/ZWRT/g' package/base-files/files/bin/config_generate
